@@ -1,0 +1,44 @@
+.Login{
+    min-height: 80vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Input{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Main-container {
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0 2% 2% 2%;
+    width: 30%;
+    height: 60%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: inherit;
+}
+
+.Div{
+    padding-bottom:10px; 
+}
+
+.Label {
+    float: left;
+    width: 50%;
+}
+
+.btn {
+    margin-top: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+}
